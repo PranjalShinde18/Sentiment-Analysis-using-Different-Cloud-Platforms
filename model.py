@@ -17,7 +17,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Load your dataset with explicit encoding
-dataset_path = 'D:/6th-Sem/Cloud Project/New_model/finaldataset.csv'
+dataset_path = 'Path to your dataset'
 df = pd.read_csv(dataset_path)
 
 def preprocess_text(text):
@@ -103,7 +103,7 @@ print("Total running time:", running_time, "seconds.")
 df['predicted_sentiment'] = predictions
 
 # Save results to CSV file
-output_path = 'D:/6th-Sem/Cloud Project/New_model/output.csv'
+output_path = 'Output directory path [Eg. "Path/output.csv".]'
 df.to_csv(output_path, index=False)
 print("Results saved at:", output_path)
 
