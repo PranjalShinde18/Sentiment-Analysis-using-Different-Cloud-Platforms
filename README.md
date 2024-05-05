@@ -5,16 +5,16 @@ This project explores the running and deployment of a machine learning model acr
 ## Team Members
 
 - **Dhairyashil**
-  - Role: Conclusion
+  - Role: Google Colab and Conclusion
     
 - **Kartik**
-  - Role: Comprehend
+  - Role: Amazon Comprehend
     
 - **Saksham**
   - Role: Introduction and Google Cloud Platform
     
 - **Pranjal**
-  - Role: EC2
+  - Role: Amazon EC2
 
 ## Overview
 
